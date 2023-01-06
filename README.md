@@ -6,7 +6,7 @@ Entrypoint is ``entrypoint.bash`` BASH script executing following actions:
 * create ``/srv/data/php81/log`` directory if not already present (``/srv/data`` is volume)
 * launch ``php-fpm81`` with custom basic config (``-y``) and custom php ini (``-c``)
 
-*Note*: This is custom image based on niektoniekde/php81fpm:latest extended with additional packages. All points in this README still apply. 
+**Note**: This is custom image based on ``niektoniekde/php81fpm:latest`` extended with additional packages. All points in this README still apply. 
 
 ## Configuration
 Custom basic configuration file provided as parameter to ``php-fpm81`` sets only
